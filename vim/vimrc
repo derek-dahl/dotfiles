@@ -1,0 +1,137 @@
+set nocompatible
+filetype plugin indent on
+syntax enable
+
+" Leader key remaps
+" =================================
+" Remap leader key to be spacebar
+let mapleader = " "
+
+" Toggle the nerdtree window with leader + d
+nmap <leader>d :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1    "Show hidden files by default; toggle with Shift+i
+
+" Easier quitting
+nmap <leader>q :q<CR>
+nmap <leader>w :w!<CR>
+
+" Toggle the tagbar
+nnoremap <silent> <Leader>t :TagbarToggle<CR>
+
+" Quicker Git Status (fugitive)
+nmap <leader>g :Gstatus<CR>
+
+" Searching
+" =================================
+
+" Dont need /g after :s or :g
+set gdefault
+
+" Case-insensitive searching
+set ignorecase
+
+" Enable incremental searching
+set incsearch
+
+" Highlight matches as you type
+set hlsearch
+
+" Color shemes
+" =================================
+"
+" Install color scheme files to vim/colors
+
+" colorscheme base16-default          " requires background=dark to be set
+" colorscheme codeschool
+" colorscheme default
+" colorscheme emacs
+" colorscheme github
+" colorscheme grb256
+" colorscheme PaperColor
+" colorscheme pink
+" colorscheme railscasts
+" colorscheme Tomorrow-Night-Bright
+" colorscheme Tomorrow-Night
+" colorscheme Tomorrow
+" colorscheme topfunky-light
+" colorscheme twilight
+" colorscheme vividchalk
+
+set background=dark
+" set background=light
+
+" highlight current line of text
+set cursorline
+
+
+" Line numbering
+" =================================
+
+" Show line numbers
+set number
+set numberwidth=5
+
+" Change line numberings for ease with writing commands
+" set relativenumber
+
+" Splits
+" =================================
+
+" Normalize split behavior
+set splitbelow
+set splitright
+
+" Move between splits
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+" Miscellaneous
+" =================================
+
+" Hide unsaved buffers instead of closing them
+set hidden
+
+" Turn off line wrapping by default
+set nowrap
+
+
+" Make it obvious where 80 characters is
+set colorcolumn=80
+
+" Show 3 lines of context around the cursor
+" set scrolloff=3
+
+" Set the terminals title
+" set title
+
+" No beeping
+set visualbell
+
+" Global tab width
+set tabstop=2
+
+" And again, related
+set shiftwidth=2
+
+" Use spaces instead of tabs
+set expandtab
+
+" Show the status line all the time (overridden by vim-airline)
+set laststatus=1
+
+" Set region to US
+set spelllang=en_us
+
+" Configure ctrlp
+" =================================
+set wildignore+=*/node_modules/*
+let g:ctrlp_custom_ignore = '\v[\/](doc|log)$'
+
+" Airline
+" =================================
+" Set airline theme. Options are: powerlineish, 'tomorrow', 'papercolor', 'bubblegum', 'simple' 
+" let g:airline_theme = 'papercolor'
+" let g:airline_powerline_fonts = 1
+

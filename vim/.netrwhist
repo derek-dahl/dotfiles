@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Users/derek.dahl/code/dotfiles-btoone'
+let g:netrw_dirhist_5='/Users/derek.dahl/code/WorkPlace21/app'
+let g:netrw_dirhist_4='/Users/derek.dahl/code/WorkPlace21/config'
+let g:netrw_dirhist_3='/Users/derek.dahl/code/dotfiles-btoone'
+let g:netrw_dirhist_2='/Users/derek.dahl/code/dotfiles-btoone/bash'
+let g:netrw_dirhist_1='/Users/derek.dahl/code/dotfiles-btoone'

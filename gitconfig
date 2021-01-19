@@ -1,0 +1,26 @@
+[color]
+	ui = true
+[user]
+	name = Derek Dahl
+	email = dahlsystems@gmail.com
+[core]
+	excludesfile = /Users/derek.dahl/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/derek.dahl/.stCommitMsg
+[credential]
+	helper = osxkeychain
+[pager]
+	branch = false
+	log = false
+	diff = true
+[alias]
+	co = checkout
+	br = branch
+[push]
+	default = current

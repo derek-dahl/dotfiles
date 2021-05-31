@@ -47,7 +47,7 @@ set hlsearch
 " colorscheme emacs
 " colorscheme github
 " colorscheme grb256
-" colorscheme PaperColor
+colorscheme PaperColor
 " colorscheme pink
 " colorscheme railscasts
 " colorscheme Tomorrow-Night-Bright

@@ -105,3 +105,4 @@ source $ZSH/oh-my-zsh.sh
 source ~/.aliases
 
 . /usr/local/Cellar/asdf/0.8.0/asdf.sh
+export PATH="/usr/local/sbin:$PATH"

@@ -135,3 +135,12 @@ let g:ctrlp_custom_ignore = '\v[\/](doc|log)$'
 " let g:airline_theme = 'papercolor'
 " let g:airline_powerline_fonts = 1
 
+" Prevent backup behavior
+" =================================
+
+" Dont make a backup before before editing a file - disable default behavior
+set nobackup
+set nowritebackup
+
+" Turn off using swap files
+set noswapfile

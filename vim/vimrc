@@ -25,7 +25,6 @@ nmap <leader>g :Gstatus<CR>
 " =================================
 
 " Dont need /g after :s or :g
-set gdefault
 
 " Case-insensitive searching
 set ignorecase
@@ -47,7 +46,7 @@ set hlsearch
 " colorscheme emacs
 " colorscheme github
 " colorscheme grb256
-colorscheme PaperColor
+" colorscheme PaperColor
 " colorscheme pink
 " colorscheme railscasts
 " colorscheme Tomorrow-Night-Bright
@@ -156,3 +155,9 @@ nmap <silent> t<C-g> :TestVisit<CR>
 " Make test commands execute using dispatch.vim
 " let test#strategy = "dispatch"
 let test#strategy = "vimterminal"
+
+" Gruvbox 
+let g:gruvbox_contrast_light = 'hard'
+let g:gruvbox_contrast_dark = 'hard'
+autocmd vimenter * ++nested colorscheme gruvbox
+

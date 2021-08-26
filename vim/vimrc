@@ -68,6 +68,7 @@ set cursorline
 
 " Show line numbers
 set number
+set relativenumber
 set numberwidth=5
 
 " Change line numberings for ease with writing commands
@@ -94,7 +95,6 @@ set hidden
 
 " Turn off line wrapping by default
 set nowrap
-
 
 " Make it obvious where 80 characters is
 set colorcolumn=80

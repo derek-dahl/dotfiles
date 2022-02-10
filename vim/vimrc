@@ -100,7 +100,7 @@ set nowrap
 set colorcolumn=80
 
 " Show 3 lines of context around the cursor
-" set scrolloff=3
+set scrolloff=8
 
 " Set the terminals title
 " set title

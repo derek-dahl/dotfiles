@@ -104,5 +104,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/.aliases
 
-. /usr/local/Cellar/asdf/0.8.0/asdf.sh
+# . /usr/local/Cellar/asdf/0.8.0/asdf.sh
 export PATH="/usr/local/sbin:$PATH"

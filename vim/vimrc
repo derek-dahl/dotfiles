@@ -19,7 +19,7 @@ nmap <leader>w :w!<CR>
 nnoremap <silent> <Leader>t :TagbarToggle<CR>
 
 " Quicker Git Status (fugitive)
-nmap <leader>g :Gstatus<CR>
+nmap <leader>g :Git<CR>
 
 " Searching
 " =================================

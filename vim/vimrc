@@ -230,3 +230,15 @@ let g:go_highlight_variable_declarations = 1
 let g:go_highlight_variable_assignments = 1
 let g:go_highlight_function_parameters = 1
 let g:go_highlight_extra_types = 1
+
+" Cursor settings based on VIM mode
+"   Reference chart of values:
+"   Ps = 0  -> blinking block.
+"   Ps = 1  -> blinking block (default).
+"   Ps = 2  -> steady block.
+"   Ps = 3  -> blinking underline.
+"   Ps = 4  -> steady underline.
+"   Ps = 5  -> blinking bar (xterm).
+"   Ps = 6  -> steady bar (xterm).xterm
+let &t_SI = "\e[5 q"
+let &t_EI = "\e[1 q"

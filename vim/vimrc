@@ -130,9 +130,12 @@ let g:ctrlp_custom_ignore = '\v[\/](doc|log)$'
 
 " Airline
 " =================================
+let g:airline_detect_modified=1
+let g:airline_detect_paste=1
+let g:airline_detect_crypt=1
 " Set airline theme. Options are: powerlineish, 'tomorrow', 'papercolor', 'bubblegum', 'simple' 
-" let g:airline_theme = 'papercolor'
-" let g:airline_powerline_fonts = 1
+let g:airline_theme='base16_gruvbox_dark_hard'
+let g:airline_powerline_fonts=1
 
 " Prevent backup behavior
 " =================================
